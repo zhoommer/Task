@@ -38,6 +38,8 @@
 
     .icon:last-child {
         display: block;
+		position: relative;
+		left: 100%;
     }
 
     .table-header {
