@@ -1,29 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
 }
 
-
 .main {
-    height: 100vh;
-    display: flex;
+  height: 100vh;
+  display: flex;
 }
 
 .main-left {
-    flex: 75%;
+  flex: 75%;
 }
 
 .main-right {
-    flex: 25%;
-    border: 1px solid rgba(33, 33, 33, 1);
-    border-radius: 15px;
-    height: 50%;
-    margin: 100px;
-    display: none;
-    transition: flex ease-in;
+  flex: 25%;
+  border: 1px solid rgba(33, 33, 33, 1);
+  border-radius: 15px;
+  height: 50%;
+  margin: 100px;
+  display: none;
+  transition: flex ease-in;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
 }
