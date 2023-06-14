@@ -1,0 +1,63 @@
+
+
+
+.form {
+    margin: 15px;
+}
+
+input[type="text"] {
+    border: 1px solid rgba(33, 33, 33, 1);
+    border-radius: 15px;
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 15px;
+    color: blueviolet;
+}
+
+.form > div:first-child {
+    cursor: pointer;
+    text-align: end;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+
+.form > div:last-child {
+    display: flex;
+    justify-content: end;
+}
+
+label {
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+input[type="button"] {
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+input[type="button"]:first-child {
+    color: blueviolet;
+}
+
+input[type="button"]:first-child:hover {
+    color: #fff;
+    background-color: blueviolet;
+    transition: 250ms;
+}
+
+
+input[type="button"]:last-child {
+    background-color: blueviolet;
+    color: #fff;
+}
+

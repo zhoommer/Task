@@ -1,0 +1,22 @@
+
+
+.navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.links > a {
+    padding: 0 25px;
+    text-decoration: none;
+    color: rgba(33, 33, 33, 1);
+    font-size: 12px;
+}
+
+
+.icon {
+    color: blueviolet;
+    padding: 0 15px;
+    cursor: pointer;
+}
