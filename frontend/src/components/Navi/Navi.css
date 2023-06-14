@@ -43,4 +43,15 @@
     .table-header {
         display: block;
     }
+
+    .main-left {
+        width: 800px;
+    }
+}
+
+
+@media only screen and (max-width: 638px) {
+    .main-left {
+        width: 600px;
+    }
 }
