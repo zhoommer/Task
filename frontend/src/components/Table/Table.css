@@ -9,3 +9,74 @@
     background-color: #D7BDE2;
     margin: 20px;
 }
+
+.table-header {
+    display: flex;
+}
+
+.table-header > div:first-child {
+    flex: 50%;
+    margin: 15px;
+}
+
+.table-header > div:last-child {
+    flex: 50%;
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+}
+
+
+input[type="search"] {
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 40px;
+    width: 250px;
+}
+
+.search-icon {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    width: 50px;
+    cursor: pointer;
+}
+
+.filter-icon {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+
+.add-new-account {
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    max-height: 40px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 831px) {
+    .links {
+        display: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .icon:last-child {
+        display: block;
+    }
+
+    input[type="search"] {
+        width: 150px;
+    }
+}

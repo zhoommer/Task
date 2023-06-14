@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navi.css";
 import brand from "../../assets/icons/logo.svg";
-import { FaBehanceSquare, FaYoutubeSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { FaBehanceSquare, FaYoutubeSquare, FaInstagramSquare, FaLinkedin, FaBars } from "react-icons/fa";
 
 const Navi = () => {
   return (
@@ -18,10 +18,11 @@ const Navi = () => {
       </div>
 
       <div className="icons">
-        <FaYoutubeSquare className="icon"/>
-        <FaBehanceSquare className="icon"/>
-        <FaInstagramSquare className="icon"/>
-        <FaLinkedin className="icon"/>
+        <FaYoutubeSquare className="icon" size={20}/>
+        <FaBehanceSquare className="icon" size={20}/>
+        <FaInstagramSquare className="icon" size={20}/>
+        <FaLinkedin className="icon" size={20}/>
+        <FaBars className="icon" size={20}/>
       </div>
     </div>
   );

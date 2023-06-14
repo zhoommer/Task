@@ -20,3 +20,27 @@
     padding: 0 15px;
     cursor: pointer;
 }
+
+.icon:last-child {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 831px) {
+    .links {
+        display: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .icon:last-child {
+        display: block;
+    }
+
+    .table-header {
+        display: block;
+    }
+}
