@@ -61,3 +61,11 @@ input[type="button"]:last-child {
     color: #fff;
 }
 
+
+@media only screen and (max-width: 831px) {
+   .main {
+    display: block;
+    scroll-behavior: auto;
+   } 
+}
+
